@@ -1,0 +1,31 @@
+.main-layout{
+    margin:0 auto;   
+    margin-right: 16.312rem;
+    margin-left: 16.312rem;
+}
+
+.main-header{
+    background-color: var(--clr4);
+    height: 132px;
+}
+
+.main-content{
+    padding-top: 80px;
+}
+
+.main-content>*{
+    border-right: 1px solid var(--clr2);
+    border-left: 1px solid var(--clr2);
+    border-bottom: 1px solid var(--clr2);
+}
+.card-layout>*{
+    margin-bottom: 80px;
+}
+
+.main-footer{
+    background-color: var(--clr3);
+    height: 316px;
+    text-align: center;
+    row-gap: 2rem;
+    margin:0;
+}

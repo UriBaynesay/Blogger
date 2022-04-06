@@ -9,10 +9,10 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="main-header">
-      <div class="logo">Blogin<span>.</span>></div>
+    <header class="main-header main-layout flex space-between">
+      <div class="logo">Blogin<span>.</span></div>
       <nav>
-        <ul class="nav-bar">
+        <ul class="nav-bar flex clr-list">
           <li>Journal</li>
           <li>About</li>
           <li>Work</li>
@@ -22,39 +22,76 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main class="main-content">
-      <div class="card">
-        <img src="" alt="" />
-        <h2 class="card-title"></h2>
-        <p class="card-text"></p>
-        <button class="card-button"></button>
+    <main class="main-content main-layout">
+      <div class="cards-container">
+        <div class="card card-layout flex">
+          <img src="/img/001.jpg" alt="" />
+          <div class="card-desc-container">
+            <h2 class="card-title">
+              Duis aute irure dolor in henderit in voluptate.
+            </h2>
+            <p class="card-text">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur...
+            </p>
+            <button class="card-button">Continue Reading</button>
+          </div>
+        </div>
+        <div class="card card-layout flex">
+          <img src="/img/002.jpg" alt="" />
+          <div class="card-desc-container">
+            <h2 class="card-title">
+              Duis aute irure dolor in henderit in voluptate.
+            </h2>
+            <p class="card-text">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur...
+            </p>
+            <button class="card-button">Continue Reading</button>
+          </div>
+        </div>
+        <div class="card card-layout flex">
+          <img src="/img/003.jpg" alt="" />
+          <div class="card-desc-container">
+            <h2 class="card-title">
+              Duis aute irure dolor in henderit in voluptate.
+            </h2>
+            <p class="card-text">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur...
+            </p>
+            <button class="card-button">Continue Reading</button>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <img src="" alt="" />
-        <h2 class="card-title"></h2>
-        <p class="card-text"></p>
-        <button class="card-button"></button>
-      </div>
-      <div class="card">
-        <img src="" alt="" />
-        <h2 class="card-title"></h2>
-        <p class="card-text"></p>
-        <button class="card-button"></button>
-      </div>
-      <nav class="nav-bar"></nav>
+      <nav class="nav-bar flex space-between">
+        <button class="prev-cards">PREVIUOUS</button>
+        <button class="next-cards">NEXT</button>
+      </nav>
     </main>
 
-    <footer class="main-footer">
-      <div class="logo">Blogin<span>.</span>></div>
-      <small class="footer-content">
-        ©2022 Blogin.com - All Rights Reserved - find more free Templates at <a href="#">Pixlehint.com</a>
-      </small>
-      <div class="social-links">
-          <button class="facebook"></button>
-          <button class="twitter"></button>
-          <button class="be"></button>
-          <button class="basketball"></button>
-      </div>
+    <!-- FOOTER -->
+    <footer class="main-footer main-layout flex column justify-content-center">
+        <div class="logo">Blogin<span>.</span></div>
+        <small class="footer-content">
+          ©2022 Blogin.com - All Rights Reserved - find more free Templates at
+          <a href="#">Pixlehint.com</a>
+        </small>
+        <div class="social-links">
+          <button class="facebook">Facebook</button>
+          <button class="twitter">Twitter</button>
+          <button class="be">Be</button>
+          <button class="basketball">🏀</button>
+        </div>
     </footer>
   </body>
 </html>

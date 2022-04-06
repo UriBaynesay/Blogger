@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+
+.flex.column{
+    flex-direction: column;
+}
+
+.flex.justify-content-center{
+    justify-content: center;
+}
+.flex.justify-content-stretch{
+    justify-content: stretch;
+}
+.flex.space-between{
+    justify-content: space-between;
+}
+
+.clr-list{
+    list-style: none;
+}
+
+.block{
+    display: block;
+}
