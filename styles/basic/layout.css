@@ -11,13 +11,15 @@
 
 .main-content{
     padding-top: 80px;
-}
-
-.main-content>*{
     border-right: 1px solid var(--clr2);
     border-left: 1px solid var(--clr2);
     border-bottom: 1px solid var(--clr2);
 }
+
+main nav{
+    border-top: 1px solid var(--clr2);
+}
+
 .card-layout>*{
     margin-bottom: 80px;
 }

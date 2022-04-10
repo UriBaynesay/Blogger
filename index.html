@@ -7,16 +7,43 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Blogger</title>
   </head>
+
+  <script>
+    function onNavBarClick(elListItem){
+      elListItem.classList.toggle('active');
+    }
+  </script>
+
   <body>
     <!-- HEADER -->
-    <header class="main-header main-layout flex space-between">
-      <div class="logo">Blogin<span>.</span></div>
-      <nav>
-        <ul class="nav-bar flex clr-list">
-          <li>Journal</li>
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact</li>
+    <header class="main-header flex space-between">
+      <div class="logo align-self-center main-layout">Blogin<span>.</span></div>
+      <nav class="align-self-center main-layout">
+        <ul class="nav-bar flex clr-list justify-content-stretch">
+          <li
+            class="flex justify-content-center align-items-center active"
+            onclick="onNavBarClick(this)"
+          >
+            Journal
+          </li>
+          <li
+            class="flex justify-content-center align-items-center"
+            onclick="onNavBarClick(this)"
+          >
+            About
+          </li>
+          <li
+            class="flex justify-content-center align-items-center"
+            onclick="onNavBarClick(this)"
+          >
+            Work
+          </li>
+          <li
+            class="flex justify-content-center align-items-center"
+            onclick="onNavBarClick(this)"
+          >
+            Contact
+          </li>
         </ul>
       </nav>
     </header>
@@ -81,17 +108,18 @@
 
     <!-- FOOTER -->
     <footer class="main-footer main-layout flex column justify-content-center">
-        <div class="logo">Blogin<span>.</span></div>
-        <small class="footer-content">
-          ©2022 Blogin.com - All Rights Reserved - find more free Templates at
-          <a href="#">Pixlehint.com</a>
-        </small>
-        <div class="social-links">
-          <button class="facebook">Facebook</button>
-          <button class="twitter">Twitter</button>
-          <button class="be">Be</button>
-          <button class="basketball">🏀</button>
-        </div>
+      <div class="logo">Blogin<span>.</span></div>
+      <small class="footer-content">
+        ©2022 Blogin.com - All Rights Reserved - find more free Templates at
+        <a href="#">Pixlehint.com</a>
+      </small>
+      <div class="social-links">
+        <button class="facebook">Facebook</button>
+        <button class="twitter">Twitter</button>
+        <button class="be">Be</button>
+        <button class="basketball">🏀</button>
+      </div>
     </footer>
   </body>
+
 </html>

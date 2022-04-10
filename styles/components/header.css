@@ -1,0 +1,40 @@
+
+header{
+    box-shadow: inset 0 -8px 0px 0px black;
+    margin: 0;
+}
+
+.logo{
+    font-family: eurofurence;
+    font-size: 2.5rem;
+    color: var(--clr6);
+}
+
+.logo span{
+    color:var(--clr5)
+}
+
+ul{
+    padding: 0;
+}
+
+nav li{
+    size: 1rem;
+    height: 130px;
+    width: 130px;
+    color: var(--clr6);
+    border-inline-start: 1px solid black;
+    transition: box-shadow 0.3s;
+}
+
+nav li:last-child{
+    border-inline-end: 1px solid black;
+}
+
+.active{
+    box-shadow: inset 0 -8px 0px 0px var(--clr5);
+}
+
+nav li:hover{
+    color: var(--clr5);
+}
