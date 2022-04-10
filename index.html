@@ -12,6 +12,9 @@
     function onNavBarClick(elListItem){
       elListItem.classList.toggle('active');
     }
+    function showMenu(){
+      document.body.classList.toggle('menu-open')
+    }
   </script>
 
   <body>
@@ -19,6 +22,7 @@
     <header class="main-header">
       <div class="header-container flex space-between main-layout">
       <div class="logo align-self-center">Blogin<span>.</span></div>
+      <button class="menu-ham" onclick="showMenu()">🍔</button>
       <nav class="align-self-center">
         <ul class="nav-bar flex clr-list justify-content-stretch">
           <li
@@ -95,12 +99,10 @@
             <h2 class="card-title">
               Duis aute irure dolor in henderit in voluptate.
             </h2>
-            <p>
+            <p class="card-text">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
-              deserunt mollit anim id est laborum. 
-              </p>
-              <p>Duis aute irure dolor in
+              deserunt mollit anim id est laborum. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur...
             </p>
