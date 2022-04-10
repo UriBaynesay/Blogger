@@ -1,0 +1,38 @@
+main img{
+    max-width: 445px;
+    /* object-fit: contain; */
+}
+
+.card-desc-container{
+    max-width: 29.375rem;
+    padding-inline-end: 2rem;
+}
+
+main h2{
+    font-size: 1.75em;
+}
+
+.card-desc-container p:last-of-type{
+    flex-grow: 1;
+}
+
+.card-desc-container button{
+    font-family: lato-bold;
+    font-size: 1em;
+    color: var(--clr7);
+    border: 1px solid var(--clr7);
+    border-radius: 5em;
+    align-self: flex-start;
+    padding: 13px 36px;
+    width: 13.187em;
+}
+
+.card-desc-container button:hover{
+    color: var(--clr5);
+    border: 1px solid var(--clr5);
+    padding: 13px 26px;
+}
+
+.card-desc-container button:hover::after{
+    content: " ➡";
+}

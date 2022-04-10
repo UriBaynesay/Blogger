@@ -4,13 +4,13 @@ header{
     margin: 0;
 }
 
-.logo{
+header .logo{
     font-family: eurofurence;
     font-size: 2.5rem;
     color: var(--clr6);
 }
 
-.logo span{
+header .logo span{
     color:var(--clr5)
 }
 

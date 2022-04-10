@@ -6,6 +6,10 @@
 
 .main-header{
     background-color: var(--clr4);
+    
+}
+
+.header-container{
     height: 132px;
 }
 

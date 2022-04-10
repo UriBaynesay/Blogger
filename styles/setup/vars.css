@@ -1,8 +1,9 @@
 :root{
     --clr1:rgb(97, 97, 97);
     --clr2:rgba(0, 0, 0, 0.075);
-    --clr3:hwb(0 97% 3%);
-    --clr4:rgba(41, 41, 41, 1);
+    --clr3:#f7f7f7;
+    --clr4:#292929;
     --clr5:#58C93A;
     --clr6:#FFFF;
+    --clr7:#C2C1C1;
 }
